@@ -4,7 +4,6 @@
     .module('app')
     .config(config)
     function config($stateProvider, $urlRouterProvider, $locationProvider) {
-      console.log("hello from the config file");
       $locationProvider.html5Mode(true);
       $stateProvider
         .state({
