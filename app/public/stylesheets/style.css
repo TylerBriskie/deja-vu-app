@@ -6,3 +6,11 @@ body {
 .nav-wrapper h6 {
   margin-top:1.5em;
 }
+
+.searchForm{
+  margin-top:3em;
+}
+
+.searchButton{
+  width:100%;
+}
