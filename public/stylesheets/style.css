@@ -1,0 +1,16 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.nav-wrapper h6 {
+  margin-top:1.5em;
+}
+
+.searchForm{
+  margin-top:3em;
+}
+
+.searchButton{
+  width:100%;
+}

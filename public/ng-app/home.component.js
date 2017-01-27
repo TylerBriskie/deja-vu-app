@@ -7,8 +7,11 @@
         templateUrl: 'ng-app/home.html'
       })
 
-    var homeController = function(){
+
+    homeController.$inject=['$http', '$stateParams', '$state']
+    var homeController = function($http, $stateParams, $state){
       const vm = this;
+      console.log("hello!");
         vm.$onInit = function (){
           console.log('hello from the controller')
         };
