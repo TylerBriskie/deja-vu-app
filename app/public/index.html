@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <base href="/">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-beta.3/angular-ui-router.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.1.1.js"
+      integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+      crossorigin="anonymous">
+    </script>
+    <script src="ng-app/app.module.js" charset="utf-8"></script>
+    <script src="ng-app/app.config.js" charset="utf-8"></script>
+    <script src="ng-app/home.component.js" charset="utf-8"></script>
+    <script src="ng-app/movies.component.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <title>Deja Vu</title>
+  </head>
+  <body>
+    <nav>
+   <div class="nav-wrapper indigo lighten-1">
+     <div class="container">
+
+     <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Deja Film</a>
+     <h6 class="right hide-on-med-and-down">
+       "Because if you're wondering if you've seen it before, you probably have"
+     </h6>
+   </div>
+   </div>
+ </nav>
+ <div class="container">
+   <ui-view></ui-view>
+ </div>
+  </body>
+</html>
